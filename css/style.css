@@ -66,12 +66,21 @@
 }
 
 .arrow{
-    padding: 2%;
+    position: absolute;
+    left: 48%;
+    right: 50%;
 }
 
 .bounceMe {
     animation: bounceArrow .7s infinite;
   }
+
+  .arrowContainer{
+    position:relative;
+    display: block;
+    width: 100%;
+    height: 150px;
+}
 
 
 
@@ -217,3 +226,4 @@
       margin-top: 0px;
     }
   }
+
