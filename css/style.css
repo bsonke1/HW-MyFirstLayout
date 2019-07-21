@@ -1,0 +1,219 @@
+/*section1*/
+
+.section1container{
+    text-align: center;
+}
+#photo{
+    display: inline-block;
+    padding: 2%;
+    padding-left:0%;
+    margin-top: 5%;
+    margin-right: 0;
+}
+
+.photo {
+    width: 341px;
+    height: 442px;
+    
+}
+
+#text {
+    display: inline-block;
+    /* position: absolute; */
+    padding-right: 2%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    margin-left: 0;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    /* margin-top: 30px; */
+    bottom: 9%;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+#name {
+    font-family: 'Karla', sans-serif;
+    font-size: 28px;
+    display: inline-block;
+    margin: 0%;
+    font-weight:500;
+}
+
+#role {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0%;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+
+.summary {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 436px;
+    display: block;
+    font-weight: 200;
+    box-sizing: border-box;
+}
+
+#arrowImage{
+    height:30px;
+    width: 40px;
+}
+
+.arrow{
+    padding: 2%;
+}
+
+/*.bounceMe {
+    animation: bounceArrow .7s infinite;
+  }*/
+
+
+
+
+.section3Container{
+    /*DON'T TOUCH here to...*/
+    background-image: url(../images/factsBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 55PX;
+    /*here*/
+    padding-bottom: 85px;
+}
+
+.facts{
+    /*DON'T TOUCH here to...*/
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #EFE9A4;
+    /*here*/
+}
+
+#factsHeader{
+    /*DON'T TOUCH here to...*/
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    margin-top: 7%;
+    margin-bottom: 1%;
+    /*here*/
+}
+
+.factListContent{
+    /*DON'T TOUCH here to...*/list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    /*here*/
+    padding: 2%;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom: 5%;
+}
+
+.factIcons{
+    width: 96px;
+    height: 100px;
+
+}
+
+.factText{
+    display: inline-block;
+    width: 60%;
+    padding: 1%;
+    /* margin: 1%; */
+}
+
+#learn {
+    padding: 1%;
+    margin: 1%;
+    text-align: start;
+    display: block;
+    margin-bottom: 5%;
+}
+
+#castle{
+    padding: 1%;
+    margin: 1%;
+    text-align: end;
+    display: block;
+    margin-bottom: 5%
+}
+
+#learnAdobe{
+    padding: 1%;
+    margin: 1%;
+    text-align: start;
+    display: block;
+}
+
+#learnIcon{
+    padding-right: 5%;
+}
+
+#castleIcon{
+    padding-left: 5%;
+}
+
+#learnAdobeIcon{
+    padding-right: 5%;
+}
+
+
+
+
+#linkedin{
+    display: block;
+}
+
+#linkedinIcon{
+    width:25px;
+    height:25px;
+}
+
+#behance{
+    display: block;
+}
+
+#behanceIcon{
+    width:25px;
+    height:25px;
+}
+
+#dribbble{
+    display: block;
+}
+
+#dribbbleIcon{
+    width:25px;
+    height:25px;
+}
+
+.fixed {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    padding-right: 2%;
+}
+
+.fixedIcons{
+    margin: 3px;
+}
+
+/*@keyframes bounceArrow {
+    from {
+      margin-top: 0px;
+    }
+    50% {
+      margin-top: 7px;
+    }
+    to {
+      margin-top: 0px;
+    }
+  }*/
