@@ -69,9 +69,9 @@
     padding: 2%;
 }
 
-/*.bounceMe {
+.bounceMe {
     animation: bounceArrow .7s infinite;
-  }*/
+  }
 
 
 
@@ -206,7 +206,7 @@
     margin: 3px;
 }
 
-/*@keyframes bounceArrow {
+@keyframes bounceArrow {
     from {
       margin-top: 0px;
     }
@@ -216,4 +216,4 @@
     to {
       margin-top: 0px;
     }
-  }*/
+  }
